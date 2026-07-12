@@ -1,118 +1,193 @@
-#CampusHire - Smart Campus Placement Portal
+# 🎓 CampusHire – Smart Campus Placement Portal
 
-A full-stack web application designed to streamline the recruitment process for candidates and clients. Built with **Spring Boot** for the backend and **React** for the frontend, this system offers secure authentication, efficient document management, and dynamic scheduling features.
+CampusHire is a full-stack web application designed to simplify and digitize the campus placement process. It connects students, companies, and placement officers through a single platform, enabling efficient placement drive management, job applications, interview scheduling, and recruitment tracking.
 
-## Features
+---
 
-- **Authentication & Authorization**
-  - Secure JWT-based login and role-based access control.
-- **Candidate & Client Management**
-  - CRUD operations for managing candidates, clients, and job requirements.
-- **Interview Scheduling**
-  - Real-time scheduling with datetime support.
-- **Document Management**
-  - PDF generation using OpenPDF, file storage as `Blob` data, and real-time PDF previews.
-- **Notifications**
-  - Automated email notifications with PDF receipts using JavaMailSender.
+## 🚀 Features
 
-## Tech Stack
+### 👨‍🎓 Student Portal
+- Student Registration & Login
+- Profile Management
+- Resume Upload
+- Browse Placement Drives
+- Apply for Placement Opportunities
+- Track Application Status
+- View Interview Schedule
 
-### Backend
-- **Spring Boot**: RESTful API development
-- **Hibernate/JPA**: Database ORM
-- **MySQL**: Database management
-- **JavaMailSender**: Email service
+### 🏢 Company Portal
+- Company Registration & Login
+- Create Placement Drives
+- Manage Job Requirements
+- View Student Applications
+- Shortlist Candidates
+- Schedule Interviews
 
-### Frontend
-- **React**: Interactive user interfaces
-- **Axios**: API requests
-- **TailwindCSS**: Styling
+### 👨‍💼 Placement Officer
+- Manage Students
+- Manage Companies
+- Monitor Placement Drives
+- Track Overall Placement Activities
 
-## Installation
+### 🔐 Authentication & Security
+- JWT-Based Authentication
+- Role-Based Access Control
+- Secure Login System
 
-### Prerequisites
-- Java 22+
-- Node.js 21+
-- MySQL
+### 📄 Document Management
+- Resume Upload
+- PDF Generation
+- PDF Preview Support
+
+### 📧 Notifications
+- Email Notifications
+- Interview Notifications
+- Application Status Updates
+
+---
+
+# 🛠 Tech Stack
+
+## Backend
+- Java 17
+- Spring Boot
+- Spring Security
+- Spring Data JPA (Hibernate)
+- REST APIs
+
+## Frontend
+- React.js
+- Tailwind CSS
+- Axios
+
+## Database
+- PostgreSQL
+
+## Build Tools
 - Maven
+- Vite
 
-### Steps
+---
 
-1. **Clone the Repository**
-   ```bash
-   git clone https://github.com/gagantirumareddy/CampusHire.git
-   cd Recruitment-System
-   ```
+# 📂 Project Structure
 
-2. **Backend Setup**
-   - Navigate to the `backend` directory:
-     ```bash
-     cd backend
-     ```
-   - Update the `application.properties` file with your MySQL credentials:
-     ```properties
-     spring.datasource.username=your_username
-     spring.datasource.password=your_password
-     ```
-   - Run the application:
-     ```bash
-     mvn spring-boot:run
-     ```
+```
+CampusHire
+│
+├── backend
+│   ├── controller
+│   ├── entity
+│   ├── repository
+│   ├── service
+│   └── config
+│
+├── frontend
+│   ├── components
+│   ├── assets
+│   ├── pages
+│   └── utils
+│
+└── README.md
+```
 
-3. **Frontend Setup**
-   - Navigate to the `frontend` directory:
-     ```bash
-     cd frontend
-     ```
-   - Install dependencies:
-     ```bash
-     npm install
-     ```
-   - Start the React application:
-     ```bash
-     npm start
-     ```
+---
 
-## Usage
+# ⚙ Installation
 
-- Access the application at `http://localhost:3000`.
-- Use the provided login credentials or register a new account.
+## Clone Repository
 
-## Project Structure
+```bash
+git clone https://github.com/gagantirumareddy/CampusHire.git
+```
 
-### Backend
-- `/src/main/java/com/global/recruitmentsystem`: Main application code
-- `/src/main/resources`: Configuration files
+```
+cd CampusHire
+```
 
-### Frontend
-- `/src/components`: React components
+---
 
-## Contributing
+## Backend
 
-Contributions are welcome! Please open an issue or submit a pull request.
+```bash
+cd backend
+```
+
+Run
+
+```bash
+mvn spring-boot:run
+```
+
+---
+
+## Frontend
+
+```bash
+cd frontend
+npm install
+npm run dev
+```
+
+Open
+
+```
+http://localhost:5173
+```
+
+---
+
+# 🎯 Modules
+
+- Student Management
+- Company Management
+- Placement Drives
+- Application Management
+- Interview Scheduling
+- Profile Management
+- Authentication
+- Admin Dashboard
+
+---
+
+# 💡 Future Enhancements
+
+- AI Resume Analysis
+- Resume Score Prediction
+- Company Recommendation System
+- Placement Analytics Dashboard
+- Email & SMS Notifications
+- Real-Time Chat
+- College ERP Integration
+
+---
+
+# 📸 Screenshots
+
+### 🏠 Home Page
+
+![Home Page](screenshots/homepage.png)
+
+### 👨‍🎓 Login page
+
+![Login Page](screenshots/loginform.png)
+
+### 🏢 Contact Page
+
+![Contact Page](screenshots/contact.png)
+
+### 👨‍💼 Register Forum
+
+![Register Forum](screenshots/register_form.png)
 
 
-## Screenshots
+---
 
-Here are some screenshots showcasing the application:
+# 👨‍💻 Developed By
 
-### Home Page
-![Home Page](screenshots/home_page.png)
+**Tirumareddy Gagan**
 
-### Login for cClient and Candidate
-![Login Page](screenshots/login_page.png)
+B.Tech – Electronics & Communication Engineering
 
-### Login forum for Client and Candidate
-![Login Forum](screenshots/login_forum.png)
+---
 
-### Dashboard
-![Dashboard](screenshots/dashboard.png)
-
-### Client's Requirements
-![Client's Requirements](screenshots/clients_requirements.png)
-
-### Applications
-![Applications](screenshots/application.png)
-
-### Upcomming Interviews
-![Upcomming Interviews](screenshots/upcomming_interviews.png)
+## ⭐ If you found this project useful, don't forget to give it a Star.
