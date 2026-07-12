@@ -237,7 +237,7 @@ const EditCandidateProfile = () => {
               </div>
             ) : (
               <div className="m-5 font-LakesNeueRegular overflow-hidden rounded-lg border border-gray-200 shadow-md pb-1">
-                Candidate not found
+                Studnet profile not found
               </div>
             )}
           </>
