@@ -165,19 +165,19 @@ http://localhost:5173
 
 ### 🏠 Home Page
 
-![Home Page](screenshots/homepage.png)
+![Home Page](CampusHire/screenshots/homepage.png)
 
 ### 👨‍🎓 Login page
 
-![Login Page](screenshots/loginform.png)
+![Login Page](CampusHire/screenshots/loginform.png)
 
 ### 🏢 Contact Page
 
-![Contact Page](screenshots/contact.png)
+![Contact Page](CampusHire/screenshots/contact.png)
 
 ### 👨‍💼 Register Forum
 
-![Register Forum](screenshots/register_form.png)
+![Register Forum](CampusHire/screenshots/register_form.png)
 
 
 ---
