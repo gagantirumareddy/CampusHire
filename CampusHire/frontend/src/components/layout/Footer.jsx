@@ -7,7 +7,7 @@ const Footer = () => {
             <div className="w-full lg:w-1/3 mb-6 lg:mb-0 text-center lg:text-left">
                 <h2 className="text-xl mb-4  text-center font-LakesNeueRegular">CONTACT</h2>
                 <p className=" text-center font-TypewcondRegular">Email:<br />gagantirumareddy@gmail.com</p>
-                <p className="mt-4  text-center font-TypewcondRegular">Phone:<br />+91-9820397879</p>
+                <p className="mt-4  text-center font-TypewcondRegular">Phone:<br />+91-7569623114</p>
             </div>
             <div className="w-full lg:w-1/3 mb-6 lg:mb-0 text-center lg:text-left">
                 <h3 className="text-xl mb-4 font-LakesNeueRegular text-center">OFFICE HOURS</h3>
