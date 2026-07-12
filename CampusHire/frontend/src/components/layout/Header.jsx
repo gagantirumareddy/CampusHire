@@ -1,5 +1,6 @@
 import React from "react";
 import { NavLink, Link, useLocation } from "react-router-dom";
+import logo from "../../assets/images/logo.png";
 
 const Header = () => {
   const location = useLocation();
@@ -32,7 +33,7 @@ const Header = () => {
           </button>
           <Link to="/" className="flex items-center gap-2">
     <img
-        src="/logo.png"
+        src={logo}
         alt="CampusHire Logo"
         className="w-10 h-10"
     />
