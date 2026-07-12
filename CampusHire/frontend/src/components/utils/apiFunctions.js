@@ -1,7 +1,7 @@
 import axios from "axios";
 
 export const api = axios.create({
-    baseURL: "https://recruitment-system-backend.onrender.com"
+    baseURL: "http://localhost:8080"
 });
 
 

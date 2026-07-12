@@ -115,11 +115,11 @@ public class paymentService {
                             + payment.getPaymentTimestamp().format(DateTimeFormatter.ofPattern("dd MMMM yyyy HH:mm:ss"))
                     , infoFont9Blue, Rectangle.BOX);
 
-            addTableCell(companyInfoTable, "SHOP No. 3. Chavan Chawl, Jogeshwari (West)\nMumbai, Maharashtra - 400102", infoFont9Blue, Rectangle.BOX);
+            addTableCell(companyInfoTable, "gagan\nkommadi,vizag-530048", infoFont9Blue, Rectangle.BOX);
             addTableCell(companyInfoTable, "       ", infoFont9, Rectangle.BOX);
             addTableCell(companyInfoTable, "RECEIPT NO. : " + payment.getPaymentId().toString(), infoFont9Blue, Rectangle.BOX);
 
-            addTableCell(companyInfoTable, "+91982039XXXX\nglobal@108b@gmail.com", infoFont9, Rectangle.BOX);
+            addTableCell(companyInfoTable, "+9175696XXXX\ngagantir@reddy@gmail.com", infoFont9, Rectangle.BOX);
             addTableCell(companyInfoTable, "       ", infoFont9, Rectangle.BOX);
             addTableCell(companyInfoTable, "       ", infoFont9, Rectangle.BOX);
 

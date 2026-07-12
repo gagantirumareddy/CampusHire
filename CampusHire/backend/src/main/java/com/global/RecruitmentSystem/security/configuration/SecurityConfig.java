@@ -1,6 +1,9 @@
 package com.global.RecruitmentSystem.security.configuration;
 
-
+import org.springframework.web.cors.CorsConfiguration;
+import org.springframework.web.cors.CorsConfigurationSource;
+import org.springframework.web.cors.UrlBasedCorsConfigurationSource;
+import java.util.List;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
@@ -36,6 +39,7 @@ public class SecurityConfig {
 
         return httpSecurity
                 // This will disable the csrf token
+                .cors(Customizer.withDefaults())
                 .csrf(customizer -> customizer.disable())
                 // This will authenticate every request ( it wont redirect to login form )
                 .authorizeHttpRequests(request ->
@@ -74,6 +78,33 @@ public class SecurityConfig {
     ) throws Exception {
         return authenticationConfiguration.getAuthenticationManager();
     }
+    @Bean
+public CorsConfigurationSource corsConfigurationSource() {
+
+    CorsConfiguration configuration = new CorsConfiguration();
+
+    configuration.setAllowedOrigins(List.of(
+            "http://localhost:5173",
+            "http://localhost:5174"
+    ));
+
+    configuration.setAllowedMethods(List.of(
+            "GET",
+            "POST",
+            "PUT",
+            "DELETE",
+            "OPTIONS"
+    ));
+
+    configuration.setAllowedHeaders(List.of("*"));
+
+    configuration.setAllowCredentials(true);
+
+    UrlBasedCorsConfigurationSource source = new UrlBasedCorsConfigurationSource();
+    source.registerCorsConfiguration("/**", configuration);
+
+    return source;
+}
 
 }
 
