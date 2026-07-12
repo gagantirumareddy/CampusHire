@@ -171,6 +171,10 @@ http://localhost:5173
 
 ![Login Page](CampusHire/screenshots/loginform.png)
 
+### 👨‍💼 Profile page
+
+![Profile page](CampusHire/screenshots/profile.png)
+
 ### 🏢 Contact Page
 
 ![Contact Page](CampusHire/screenshots/contact.png)
