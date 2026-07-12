@@ -61,9 +61,24 @@ const Home = () => {
                   Why CampusHire?
                 </h1>
               </div>
-                <div className="flex flex-col lg:flex-row justify-around">
-                  Connecting Talent With Opportunities: CampusHire bridges the gap between students and companies, providing a seamless platform for talent acquisition and career growth.
-                </div>
+                <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-10">
+
+  <div className="p-6 shadow-lg rounded-xl bg-white">
+      <h2 className="text-2xl font-bold">🎓 Student Portal</h2>
+      <p>Build your profile, upload resumes and apply for placement drives.</p>
+  </div>
+
+  <div className="p-6 shadow-lg rounded-xl bg-white">
+      <h2 className="text-2xl font-bold">🏢 Company Portal</h2>
+      <p>Post placement drives and shortlist eligible students.</p>
+  </div>
+
+  <div className="p-6 shadow-lg rounded-xl bg-white">
+      <h2 className="text-2xl font-bold">👨‍💼 Placement Cell</h2>
+      <p>Manage students, companies and recruitment activities efficiently.</p>
+  </div>
+
+</div>
             </div>
           </div>
         </section>

@@ -52,7 +52,7 @@ public class PaymentController {
                 .getCandidateApplicationById(applicationId);
         String email = candidateApplication.getClientRequirement().getClient().getEmail();
 
-        helper.setFrom("globalmanpower108b@gmail.com");
+        helper.setFrom("gagantirumareddy@gmail.com");
         helper.setTo(email);
         helper.setSubject("Payment Successful");
         helper.setText("Your Payment for candidate " + candidateApplication.getCandidate().getName() + " was successful\nHere is the receipt");

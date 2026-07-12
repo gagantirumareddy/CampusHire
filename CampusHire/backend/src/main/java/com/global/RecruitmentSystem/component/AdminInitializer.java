@@ -15,7 +15,7 @@ public class AdminInitializer {
     public CommandLineRunner initializeAdmin(AdminRepository adminRepository) {
         return args -> {
             if (!adminRepository.existsById(1)) {
-                Admin admin = new Admin(1, "Saad Khan", "Admin", bCryptPasswordEncoder.encode("Admin"), "globalmanpower108b@gmail.com");
+                Admin admin = new Admin(1, "Saad Khan", "Admin", bCryptPasswordEncoder.encode("Admin"), "gagantirumareddy@gmail.com");
                 adminRepository.save(admin);
             }
         };

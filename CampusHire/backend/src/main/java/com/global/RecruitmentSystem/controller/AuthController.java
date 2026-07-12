@@ -153,7 +153,7 @@ public class AuthController {
         try {
             MimeMessage mimeMessage = mailSender.createMimeMessage();
             MimeMessageHelper helper = new MimeMessageHelper(mimeMessage, true);
-            helper.setFrom("globalmanpower108b@gmail.com");
+            helper.setFrom("gagantirumareddy@gmail.com");
             helper.setTo(toEmail);
             helper.setSubject("Reset your password");
             helper.setText("Click on the link below to reset your password: \n" + resetLink);
