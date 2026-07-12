@@ -1,9 +1,8 @@
 import axios from "axios";
 
 export const api = axios.create({
-    baseURL: "http://localhost:8080"
+    baseURL: import.meta.env.VITE_API_URL
 });
-
 
 // Function to get the JWT token from local storage
 const getToken = () => {
