@@ -11,8 +11,8 @@
 	<groupId>com.global</groupId>
 	<artifactId>CampusHire</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>RecruitmentSystem</name>
-	<description>A recruitment system for managing job requirements, candidates, applications, and client interactions. </description>
+	<name>CampusHire</name>
+	<description>Smart Campus Placement Portal built using Spring Boot and React.</description>
 	<url/>
 	<licenses>
 		<license/>
@@ -141,7 +141,6 @@
 							<goal>repackage</goal>
 						</goals>
 						<configuration>
-							<classifier>exec</classifier>
 							<excludes>
 								<exclude>
 									<groupId>org.projectlombok</groupId>
