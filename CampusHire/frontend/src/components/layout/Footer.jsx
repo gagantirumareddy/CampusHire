@@ -5,9 +5,9 @@ const Footer = () => {
     <footer className="bg-[#032B22] text-[#EFEDE7] py-10">
         <div className="container mx-auto flex flex-wrap justify-between items-start">
             <div className="w-full lg:w-1/3 mb-6 lg:mb-0 text-center lg:text-left">
-                <h2 className="text-xl mb-4  text-center font-LakesNeueRegular">OFFICE</h2>
-                <p className=" text-center font-TypewcondRegular">Shop No. 3, Chavan Chawl, Jogeshwari (W),<br />Mumbai PIN : 400102</p>
-                <p className="mt-4  text-center font-TypewcondRegular">+91-9820397879<br />global108b@gmail.com</p>
+                <h2 className="text-xl mb-4  text-center font-LakesNeueRegular">CONTACT</h2>
+                <p className=" text-center font-TypewcondRegular">Email:<br />gagantirumareddy@gmail.com</p>
+                <p className="mt-4  text-center font-TypewcondRegular">Phone:<br />+91-9820397879</p>
             </div>
             <div className="w-full lg:w-1/3 mb-6 lg:mb-0 text-center lg:text-left">
                 <h3 className="text-xl mb-4 font-LakesNeueRegular text-center">OFFICE HOURS</h3>
@@ -15,7 +15,7 @@ const Footer = () => {
                 <p className="mt-4 text-center font-TypewcondRegular">SATURDAY<br />9:00 am to 12:00 noon</p>
             </div>
             <div className="w-full lg:w-1/3 flex justify-center lg:justify-end space-x-4">
-                <a href="https://www.linkedin.com/in/saad-khan-aa8035258/" target="_blank">
+                <a href="https://www.linkedin.com/in/gagan-tirumareddy-a08020301" target="_blank">
                     <svg  fill="#EFEDE7" height="25px" width="25px" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" 
                         viewBox="0 0 24 24" xml:space="preserve">
                         <g id="social-linkedin">
@@ -25,7 +25,7 @@ const Footer = () => {
                         </g>
                     </svg>
                 </a>
-                <a href="https://www.instagram.com/k4saad/" target="_blank">
+                <a href="https://www.instagram.com/zobodomarsh?igsh=bm44MHp6bndnODli" target="_blank">
                     <svg fill="#EFEDE7" height="25px" width="25px" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" 
                         viewBox="0 0 24 24" xml:space="preserve">
                         <g id="social-instagram">
@@ -44,7 +44,7 @@ const Footer = () => {
                         </g>
                     </svg>
                 </a>
-                <a href="https://github.com/k4saad" target="_blank">
+                <a href="https://github.com/gagantirumareddy/CampusHire" target="_blank">
                     <svg fill="#EFEDE7" height="25px" width="25px" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" 
                         viewBox="0 0 24 24" xml:space="preserve">
                         <g id="social-github">
@@ -64,9 +64,15 @@ const Footer = () => {
                 </a>
             </div>
         </div>
-        <div className="container mx-auto mt-40 text-center">
-            <h1 className="text-4xl md:text-7xl lg:text-8xl font-bold text-[#40FFB5] font-CinzelRegular ">Global Manpower</h1>
-        </div>
+        <div className="container mx-auto mt-16 text-center">
+    <h1 className="text-5xl font-bold text-blue-500">
+        CampusHire
+    </h1>
+
+    <p className="mt-4 text-gray-300">
+        Smart Campus Placement Portal
+    </p>
+</div>
     </footer>
   );
 }
