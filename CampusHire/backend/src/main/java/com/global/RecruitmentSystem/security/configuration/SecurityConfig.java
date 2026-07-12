@@ -85,7 +85,8 @@ public CorsConfigurationSource corsConfigurationSource() {
 
     configuration.setAllowedOrigins(List.of(
             "http://localhost:5173",
-            "http://localhost:5174"
+            "http://localhost:5174",
+            "https://campus-hire-nine.vercel.app/"
     ));
 
     configuration.setAllowedMethods(List.of(
