@@ -3,7 +3,7 @@ import { Link, NavLink } from "react-router-dom";
 
 const AdminSideBar = () => {
   return (
-    <aside className="flex h-screen w-64 flex-col overflow-y-auto border-r bg-[#032B22] px-5 py-8 font-LakesNeueRegular text-[#EFEDE7]">
+    <aside className="flex h-screen w-64 flex-col overflow-y-auto border-r bg-[#2A2A2A] px-5 py-8 font-LakesNeueRegular text-[#EFEDE7]">
       <Link to="/admin/client">
       <svg
               fill="#EFEDE7"
@@ -70,7 +70,7 @@ const AdminSideBar = () => {
             </label>
             <NavLink to="/admin/client"
               className={({isActive}) => `flex transform items-center rounded-lg px-3 py-2 transition-colors duration-300 ${
-                isActive ? "text-[#032B22] bg-[#EFEDE7]" : ""} hover:bg-[#EFEDE7] hover:text-[#032B22]`}
+                isActive ? "text-[#2A2A2A] bg-[#EFEDE7]" : ""} hover:bg-[#EFEDE7] hover:text-[#2A2A2A]`}
             >
               <span className="mx-2 text-sm font-medium">Clients</span>
             </NavLink>
@@ -81,7 +81,7 @@ const AdminSideBar = () => {
             </label>
             <NavLink to="/admin/candidate"
               className={({isActive}) => `flex transform items-center rounded-lg px-3 py-2 transition-colors duration-300 ${
-                isActive ? "text-[#032B22] bg-[#EFEDE7]" : ""} hover:bg-[#EFEDE7] hover:text-[#032B22]`}
+                isActive ? "text-[#2A2A2A] bg-[#EFEDE7]" : ""} hover:bg-[#EFEDE7] hover:text-[#2A2A2A]`}
             >
               <span className="mx-2 text-sm font-medium">Candidates</span>
             </NavLink>
@@ -92,7 +92,7 @@ const AdminSideBar = () => {
             </label>
             <NavLink to="/admin/requirement"
               className={({isActive}) => `flex transform items-center rounded-lg px-3 py-2 transition-colors duration-300 ${
-                isActive ? "text-[#032B22] bg-[#EFEDE7]" : ""} hover:bg-[#EFEDE7] hover:text-[#032B22]`}
+                isActive ? "text-[#2A2A2A] bg-[#EFEDE7]" : ""} hover:bg-[#EFEDE7] hover:text-[#2A2A2A]`}
             >
               <span className="mx-2 text-sm font-medium">Requirements</span>
             </NavLink>
@@ -104,7 +104,7 @@ const AdminSideBar = () => {
             <NavLink
             to="/admin/profile"
             className={({isActive}) => `flex transform items-center rounded-lg px-3 py-2 transition-colors duration-300 ${
-                isActive ? "text-[#032B22] bg-[#EFEDE7]" : ""} hover:bg-[#EFEDE7] hover:text-[#032B22]`}
+                isActive ? "text-[#2A2A2A] bg-[#EFEDE7]" : ""} hover:bg-[#EFEDE7] hover:text-[#2A2A2A]`}
               >
               <span className="mx-2 text-sm font-medium">Profile</span>
             </NavLink>

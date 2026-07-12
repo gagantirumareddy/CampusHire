@@ -1,5 +1,4 @@
 package com.global.RecruitmentSystem.controller;
-
 import com.global.RecruitmentSystem.enums.TicketStatus;
 import com.global.RecruitmentSystem.exceptions.*;
 import com.global.RecruitmentSystem.model.CandidateApplication;

@@ -89,13 +89,13 @@ const AllRequirement = () => {
         handleNotification={handleNotification}/>
       )}
       <div className="flex flex-col mx-auto">
-        <h2 className="font-CinzelRegular mx-auto text-3xl font-bold text-[#00634D] size-fit">
+        <h2 className="font-CinzelRegular mx-auto text-3xl font-bold text-[#2A2A2A] size-fit">
           Existing Requirements
         </h2>
 
         {isLoading ? (
           <div className="size-fit mx-auto transform translate-x-1/2 translate-y-1/2 ">
-            <div className="border-t-transparent border-solid animate-spin  rounded-full border-[#00634D] border-8 h-10 w-10"></div>
+            <div className="border-t-transparent border-solid animate-spin  rounded-full border-[#2A2A2A] border-8 h-10 w-10"></div>
           </div>
         ) : (
           <div className="m-5 overflow-hidden rounded-lg border border-gray-200 shadow-md pb-1">

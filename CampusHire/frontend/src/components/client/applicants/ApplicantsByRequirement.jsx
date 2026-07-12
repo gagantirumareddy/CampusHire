@@ -54,13 +54,13 @@ const ApplicantsByRequirement = () => {
               <div className="relative w-full">
                 <div className="mx-0 flex flex-col">
                   <div>
-                    <h1 className="text-center font-CinzelRegular my-8 text-3xl font-bold tracking-tight text-[#00634D] md:text-4xl lg:text-6xl">
+                    <h1 className="text-center font-CinzelRegular my-8 text-3xl font-bold tracking-tight text-[#2A2A2A] md:text-4xl lg:text-6xl">
                         Applicants
                     </h1>
                   </div>
                   {isLoading ? (
                     <div className="size-fit mx-auto my-56 transform translate-x-1/2 translate-y-1/2 ">
-                      <div className="border-t-transparent border-solid animate-spin  rounded-full border-[#00634D] border-8 h-10 w-10 "></div>
+                      <div className="border-t-transparent border-solid animate-spin  rounded-full border-[#2A2A2A] border-8 h-10 w-10 "></div>
                     </div>
                   ) : (
                     <div className="grid grid-cols-2 lg:flex-row justify-around">
@@ -79,7 +79,7 @@ const ApplicantsByRequirement = () => {
             />
                 <button
                 onClick={() => navigate(-1)}
-                    className=" bg-[#00634D] mx-auto rounded-lg hover:bg-[#16473d] focus:bg-[#00634D]
+                    className=" bg-[#2A2A2A] mx-auto rounded-lg hover:bg-[#D4AF37] focus:bg-[#2A2A2A]
                         text-white font-bold py-2 px-4  focus:outline-none size-fit 
                         focus:shadow-outline">Back
                     </button>

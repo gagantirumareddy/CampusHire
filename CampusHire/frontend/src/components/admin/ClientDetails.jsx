@@ -20,7 +20,7 @@ const ClientDetails = () => {
     return(
         <>
           <div className="flex flex-col mx-auto">
-            <h2 className="font-CinzelRegular mx-auto text-3xl font-bold text-[#00634D] size-fit">
+            <h2 className="font-CinzelRegular mx-auto text-3xl font-bold text-[#2A2A2A] size-fit">
               Client Details
             </h2>
               <>
@@ -37,7 +37,7 @@ const ClientDetails = () => {
                   <div>
                         <button
                         onClick={() => navigate(-1)}
-                        className=" bg-[#00634D] mr-5 rounded-lg hover:bg-[#16473d] focus:bg-[#00634D]
+                        className=" bg-[#2A2A2A] mr-5 rounded-lg hover:bg-[#D4AF37] focus:bg-[#2A2A2A]
                         text-white font-bold py-2 px-4  focus:outline-none mx-auto
                         focus:shadow-outline">Back
                         </button>

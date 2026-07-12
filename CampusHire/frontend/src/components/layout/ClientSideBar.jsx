@@ -3,7 +3,7 @@ import { Link, NavLink } from "react-router-dom";
 
 const ClientSideBar = () => {
   return (
-    <aside className="flex h-screen w-64 flex-col overflow-y-auto border-r bg-[#032B22] px-5 py-8 font-LakesNeueRegular text-[#EFEDE7]">
+    <aside className="flex h-screen w-64 flex-col overflow-y-auto border-r bg-[#2A2A2A] px-5 py-8 font-LakesNeueRegular text-[#EFEDE7]">
       <Link to="/client/requirement">
       <svg
               fill="#EFEDE7"
@@ -70,14 +70,14 @@ const ClientSideBar = () => {
             </label>
             <NavLink to="/client/requirement"
               className={({isActive}) => `flex transform items-center rounded-lg px-3 py-2 transition-colors duration-300 ${
-                isActive ? "text-[#032B22] bg-[#EFEDE7]" : ""} hover:bg-[#EFEDE7] hover:text-[#032B22]`}
+                isActive ? "text-[#2A2A2A] bg-[#EFEDE7]" : ""} hover:bg-[#EFEDE7] hover:text-[#2A2A2A]`}
             >
               <span className="mx-2 text-sm font-medium">Existing Requirements</span>
             </NavLink>
             <NavLink
             to="/client/add/requirement"
             className={({isActive}) => `flex transform items-center rounded-lg px-3 py-2 transition-colors duration-300 ${
-                isActive ? "text-[#032B22] bg-[#EFEDE7]" : ""} hover:bg-[#EFEDE7] hover:text-[#032B22]`}
+                isActive ? "text-[#2A2A2A] bg-[#EFEDE7]" : ""} hover:bg-[#EFEDE7] hover:text-[#2A2A2A]`}
               >
               <span className="mx-2 text-sm font-medium">Add Requirement</span>
             </NavLink>
@@ -89,7 +89,7 @@ const ClientSideBar = () => {
             <NavLink
             to="/client/applicants"
             className={({isActive}) => `flex transform items-center rounded-lg px-3 py-2 transition-colors duration-300 ${
-                isActive ? "text-[#032B22] bg-[#EFEDE7]" : ""} hover:bg-[#EFEDE7] hover:text-[#032B22]`}
+                isActive ? "text-[#2A2A2A] bg-[#EFEDE7]" : ""} hover:bg-[#EFEDE7] hover:text-[#2A2A2A]`}
               >
               <span className="mx-2 text-sm font-medium">All Applicants</span>
             </NavLink>
@@ -101,7 +101,7 @@ const ClientSideBar = () => {
             <NavLink
             to="/client/interview/upcomming"
             className={({isActive}) => `flex transform items-center rounded-lg px-3 py-2 transition-colors duration-300 ${
-                isActive ? "text-[#032B22] bg-[#EFEDE7]" : ""} hover:bg-[#EFEDE7] hover:text-[#032B22]`}
+                isActive ? "text-[#2A2A2A] bg-[#EFEDE7]" : ""} hover:bg-[#EFEDE7] hover:text-[#2A2A2A]`}
               >
               <span className="mx-2 text-sm font-medium">Upcoming Interview</span>
             </NavLink>
@@ -113,7 +113,7 @@ const ClientSideBar = () => {
             <NavLink
             to="/client/profile"
             className={({isActive}) => `flex transform items-center rounded-lg px-3 py-2 transition-colors duration-300 ${
-                isActive ? "text-[#032B22] bg-[#EFEDE7]" : ""} hover:bg-[#EFEDE7] hover:text-[#032B22]`}
+                isActive ? "text-[#2A2A2A] bg-[#EFEDE7]" : ""} hover:bg-[#EFEDE7] hover:text-[#2A2A2A]`}
               >
               <span className="mx-2 text-sm font-medium">Profile</span>
             </NavLink>

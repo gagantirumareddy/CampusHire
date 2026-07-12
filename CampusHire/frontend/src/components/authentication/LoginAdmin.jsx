@@ -48,14 +48,14 @@ const  LoginAdmin = () => {
                 height="100"
             />
         </div>
-          <h2 className="text-center text-2xl font-LakesNeueDemiBold leading-tight text-[#00634D]">
+          <h2 className="text-center text-2xl font-LakesNeueDemiBold leading-tight text-[#2A2A2A]">
             Sign in to your account
           </h2>
           
           <form onSubmit={handleSubmit} className="mt-8">
             <div className="space-y-5">
               <div>
-                <label htmlFor="" className="text-base font-medium text-[#00634D]">
+                <label htmlFor="" className="text-base font-medium text-[#2A2A2A]">
                   {' '}
                   Username{' '}
                 </label>
@@ -74,7 +74,7 @@ const  LoginAdmin = () => {
               </div>
               <div>
                 <div className="flex items-center justify-between">
-                  <label htmlFor="" className="text-base font-medium text-[#00634D]">
+                  <label htmlFor="" className="text-base font-medium text-[#2A2A2A]">
                     {' '}
                     Password{' '}
                   </label>
@@ -101,7 +101,7 @@ const  LoginAdmin = () => {
               <div>
                 <button
                   type="submit"
-                  className="inline-flex w-full items-center justify-center rounded-md bg-[#00634D] hover:bg-[#16473d] focus:bg-[#00634D] px-3.5 py-2.5 font-semibold leading-7 text-[#EFEDE7] "
+                  className="inline-flex w-full items-center justify-center rounded-md bg-[#2A2A2A] hover:bg-[#D4AF37] focus:bg-[#2A2A2A] px-3.5 py-2.5 font-semibold leading-7 text-[#EFEDE7] "
                 >
                   Login 
                 </button>

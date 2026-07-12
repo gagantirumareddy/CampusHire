@@ -34,13 +34,13 @@ const ClientDetails = () => {
           handleNotification={handleNotification}/>
         )}
         <div className="flex flex-col mx-auto">
-          <h2 className="font-CinzelRegular mx-auto text-3xl font-bold text-[#00634D] size-fit">
+          <h2 className="font-CinzelRegular mx-auto text-3xl font-bold text-[#2A2A2A] size-fit">
             Profile
           </h2>
   
           {isLoading ? (
             <div className="size-fit mx-auto transform translate-x-1/2 translate-y-1/2 ">
-              <div className="border-t-transparent border-solid animate-spin  rounded-full border-[#00634D] border-8 h-10 w-10"></div>
+              <div className="border-t-transparent border-solid animate-spin  rounded-full border-[#2A2A2A] border-8 h-10 w-10"></div>
             </div>
           ) : (
             <>
@@ -76,7 +76,7 @@ const ClientDetails = () => {
                       <div>
                           <button
                           onClick={() => navigate(-1)}
-                              className=" bg-[#00634D] mr-5 rounded-lg hover:bg-[#16473d] focus:bg-[#00634D]
+                              className=" bg-[#2A2A2A] mr-5 rounded-lg hover:bg-[#D4AF37] focus:bg-[#2A2A2A]
                                   text-white font-bold py-2 px-4  focus:outline-none mx-auto
                                   focus:shadow-outline">back
                           </button>

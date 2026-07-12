@@ -110,7 +110,7 @@ const AddRequirement = () => {
                 handleNotification={handleNotification}/>
             )}
                 <div className="flex flex-col w-2/3 mx-auto">
-                    <h2 className="font-CinzelRegular mx-auto text-3xl font-bold text-[#00634D] size-fit mb-5">
+                    <h2 className="font-CinzelRegular mx-auto text-3xl font-bold text-[#2A2A2A] size-fit mb-5">
                     Add a new requirement
                     </h2>
                     <form onSubmit={handleSubmit}>
@@ -121,7 +121,7 @@ const AddRequirement = () => {
                             <input
                                 required
                                 type="text"
-                                className="shadow appearance-none w-full py-2 px-3 focus:ring-[#00634D] focus:border-[#00634D] placeholder-gray-700 border rounded focus:outline-none focus:shadow-outline"
+                                className="shadow appearance-none w-full py-2 px-3 focus:ring-[#2A2A2A] focus:border-[#2A2A2A] placeholder-gray-700 border rounded focus:outline-none focus:shadow-outline"
                                 id="title"
                                 name="title"
                                 placeholder="Enter Job Title"
@@ -135,7 +135,7 @@ const AddRequirement = () => {
                             <textarea
                                 required
                                 rows="5"
-                                className="shadow appearance-none w-full py-2 px-3 focus:ring-[#00634D] focus:border-[#00634D] placeholder-gray-700 border rounded focus:outline-none focus:shadow-outline"
+                                className="shadow appearance-none w-full py-2 px-3 focus:ring-[#2A2A2A] focus:border-[#2A2A2A] placeholder-gray-700 border rounded focus:outline-none focus:shadow-outline"
                                 id="description"
                                 name="description"
                                 placeholder="Enter Job Description"
@@ -148,7 +148,7 @@ const AddRequirement = () => {
                             className="block text-gray-700 font-bold mb-2">Requirement Validity</label>
                             <input
                                 type="date"
-                                className="shadow p-5 px-10 rounded-xl font-TypewcondRegular text-xl placeholder-gray-700 focus:ring-[#00634D]  focus:border-[#00634D] border focus:outline-none focus:shadow-outline"
+                                className="shadow p-5 px-10 rounded-xl font-TypewcondRegular text-xl placeholder-gray-700 focus:ring-[#2A2A2A]  focus:border-[#2A2A2A] border focus:outline-none focus:shadow-outline"
                                 id="validTill"
                                 name="validTill"
                                 value={newRequirement.validTill}
@@ -163,7 +163,7 @@ const AddRequirement = () => {
                                 <input
                                     required
                                     type="number"
-                                    className="shadow appearance-none basis-1/2 py-2 px-3 focus:ring-[#00634D] focus:border-[#00634D] placeholder-gray-700 border rounded focus:outline-none focus:shadow-outline"
+                                    className="shadow appearance-none basis-1/2 py-2 px-3 focus:ring-[#2A2A2A] focus:border-[#2A2A2A] placeholder-gray-700 border rounded focus:outline-none focus:shadow-outline"
                                     id="minSalary"
                                     name="minSalary"
                                     placeholder="Enter Minimum Salary"
@@ -173,7 +173,7 @@ const AddRequirement = () => {
                                 <input
                                     required
                                     type="number"
-                                    className="shadow appearance-none basis-1/2 py-2  focus:ring-[#00634D] focus:border-[#00634D] placeholder-gray-700 border rounded focus:outline-none focus:shadow-outline"
+                                    className="shadow appearance-none basis-1/2 py-2  focus:ring-[#2A2A2A] focus:border-[#2A2A2A] placeholder-gray-700 border rounded focus:outline-none focus:shadow-outline"
                                     id="maxSalary"
                                     name="maxSalary"
                                     placeholder="Enter Maximum Salary"
@@ -188,7 +188,7 @@ const AddRequirement = () => {
                             <input
                                 required
                                 type="text"
-                                className="shadow appearance-none w-full py-2 px-3 focus:ring-[#00634D] focus:border-[#00634D] placeholder-gray-700 border rounded focus:outline-none focus:shadow-outline"
+                                className="shadow appearance-none w-full py-2 px-3 focus:ring-[#2A2A2A] focus:border-[#2A2A2A] placeholder-gray-700 border rounded focus:outline-none focus:shadow-outline"
                                 id="location"
                                 name="location"
                                 placeholder="Enter Job Location"
@@ -216,7 +216,7 @@ const AddRequirement = () => {
                         </div>
                         <div  className="flex justify-between mt-4">
                             <button type="submit" 
-                            className=" bg-[#00634D] rounded-lg hover:bg-[#16473d] focus:bg-[#00634D]
+                            className=" bg-[#2A2A2A] rounded-lg hover:bg-[#D4AF37] focus:bg-[#2A2A2A]
                                 text-white font-bold py-2 mb-5 px-4  focus:outline-none mx-auto
                                 focus:shadow-outline">Post requirement</button>
                         </div>

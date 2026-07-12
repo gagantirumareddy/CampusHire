@@ -20,31 +20,26 @@ const Home = () => {
               WELCOME TO
             </p>
             <h2 className="mb-7 z-20 text-4xl md:text-7xl lg:text-8xl font-bold text-[#EFEDE7] font-CinzelRegular">
-              Global Manpower
+              CampusHire
             </h2>
             <Link
               to="/about"
               className="hover:text-[#EFEDE7] hover:ring-[#EFEDE7] text-xs md:text-sm lg:text ring-1 text-[#EFEDE7] ring-[#EFEDE7] font-LakesNeueRegular rounded-lg px-4 lg:px-5 py-2 lg:py-2.5 mr-2 focus:outline-none"
             >
-              LEARN MORE
+              EXPLORE PLACEMENTS
             </Link>
           </div>
         </section>
 
-        <section className="flex justify-around relative h-screen w-full bg-[#032B22]">
+        <section className="flex justify-around relative h-screen w-full bg-[#2A2A2A]">
           <div className="relative w-full">
             <div className="mx-auto max-w-7xl lg:grid lg:grid-cols-12 lg:gap-x-8 lg:px-8">
               <div className="flex flex-col justify-center px-4 py-12 md:py-16 lg:col-span-7 lg:gap-x-6 lg:px-6 lg:py-24 xl:col-span-6">
                 <h1 className="text-center font-CinzelRegular  mt-8 text-3xl font-bold tracking-tight text-[#40FFB5] md:text-4xl lg:text-6xl">
-                Your Trusted Partner in Global Manpower
+                Your Gateway to Campus Placements
                 </h1>
                 <p className="mt-8 text-lg text-[#EFEDE7] font-TypewcondRegular text-center">
-                Discover a reliable source for skilled labor across various industries. 
-                Whether you need experienced chefs, dedicated masons, talented carpenters, 
-                or professional house staff, we connect you with top talent from India, 
-                ready to serve in Gulf countries and beyond. Our commitment to excellence ensures 
-                that you receive dependable, qualified workers who contribute to your success, 
-                providing a seamless experience from recruitment to deployment.
+                CampusHire is a smart campus placement portal that connects students, companies, and placement officers through a single platform. Students can explore placement drives, apply for opportunities, upload resumes, and track their application status. Companies can manage recruitment efficiently, while placement officers can monitor the complete placement process.
                 </p>
               </div>
               <div className="relative my-auto lg:col-span-5 lg:-mr-8 xl:col-span-6">
@@ -62,12 +57,12 @@ const Home = () => {
           <div className="relative w-full">
             <div className="mx-0 flex flex-col">
               <div>
-                <h1 className="text-center font-CinzelRegular  mt-8 text-3xl font-bold tracking-tight text-[#00634D] md:text-4xl lg:text-6xl">
-                  Service
+                <h1 className="text-center font-CinzelRegular  mt-8 text-3xl font-bold tracking-tight text-[#2A2A2A] md:text-4xl lg:text-6xl">
+                  Why CampusHire?
                 </h1>
               </div>
                 <div className="flex flex-col lg:flex-row justify-around">
-                  various service
+                  Connecting Talent With Opportunities: CampusHire bridges the gap between students and companies, providing a seamless platform for talent acquisition and career growth.
                 </div>
             </div>
           </div>

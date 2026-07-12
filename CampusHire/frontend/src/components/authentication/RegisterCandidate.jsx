@@ -50,14 +50,14 @@ export function RegisterCandidate() {
                 height="100"
             />
         </div>
-          <h2 className="text-center text-2xl font-LakesNeueDemiBold leading-tight text-[#00634D]">
+          <h2 className="text-center text-2xl font-LakesNeueDemiBold leading-tight text-[#2A2A2A]">
           Sign up to create account
           </h2>
           <p className="mt-2 text-center text-sm font-TypewcondRegular text-gray-600 ">
             Already have an account?{' '}
             <Link
               to="/login/candidate"
-              className="font-TypewcondRegular font-semibold text-[#00634D] transition-all duration-200 hover:underline"
+              className="font-TypewcondRegular font-semibold text-[#2A2A2A] transition-all duration-200 hover:underline"
             >
               Sign In
             </Link>
@@ -65,7 +65,7 @@ export function RegisterCandidate() {
           <form onSubmit={handleSubmit} className="mt-8">
             <div className="space-y-5">
                 <div>
-                    <label htmlFor="" className="text-base font-medium text-[#00634D]">
+                    <label htmlFor="" className="text-base font-medium text-[#2A2A2A]">
                     {' '}
                     Full Name{' '}
                     </label>
@@ -83,7 +83,7 @@ export function RegisterCandidate() {
                     </div>
               </div>
               <div>
-                    <label htmlFor="" className="text-base font-medium text-[#00634D]">
+                    <label htmlFor="" className="text-base font-medium text-[#2A2A2A]">
                     {' '}
                     Contact Number{' '}
                     </label>
@@ -101,7 +101,7 @@ export function RegisterCandidate() {
                     </div>
               </div>
               <div>
-                <label htmlFor="" className="text-base font-medium text-[#00634D]">
+                <label htmlFor="" className="text-base font-medium text-[#2A2A2A]">
                   {' '}
                   Username{' '}
                 </label>
@@ -120,7 +120,7 @@ export function RegisterCandidate() {
               </div>
               <div>
                 <div className="flex items-center justify-between">
-                  <label htmlFor="" className="text-base font-medium text-[#00634D]">
+                  <label htmlFor="" className="text-base font-medium text-[#2A2A2A]">
                     {' '}
                     Password{' '}
                   </label>
@@ -153,7 +153,7 @@ export function RegisterCandidate() {
               <div>
                 <button
                   type="submit"
-                  className="inline-flex w-full items-center justify-center rounded-md bg-[#00634D] hover:bg-[#16473d] focus:bg-[#00634D] px-3.5 py-2.5 font-semibold leading-7 text-[#EFEDE7] "
+                  className="inline-flex w-full items-center justify-center rounded-md bg-[#2A2A2A] hover:bg-[#D4AF37] focus:bg-[#2A2A2A] px-3.5 py-2.5 font-semibold leading-7 text-[#EFEDE7] "
                 >
                   Create Account 
                 </button>

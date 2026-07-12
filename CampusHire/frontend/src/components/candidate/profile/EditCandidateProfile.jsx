@@ -116,13 +116,13 @@ const EditCandidateProfile = () => {
             handleNotification={handleInputChange}/>
         )}
         <div className="flex flex-col mx-auto">
-          <h2 className="font-CinzelRegular mx-auto text-3xl font-bold text-[#00634D] size-fit">
+          <h2 className="font-CinzelRegular mx-auto text-3xl font-bold text-[#2A2A2A] size-fit">
             Edit Profile
           </h2>
   
           {isLoading ? (
             <div className="size-fit mx-auto transform translate-x-1/2 translate-y-1/2 ">
-              <div className="border-t-transparent border-solid animate-spin  rounded-full border-[#00634D] border-8 h-10 w-10"></div>
+              <div className="border-t-transparent border-solid animate-spin  rounded-full border-[#2A2A2A] border-8 h-10 w-10"></div>
             </div>
           ) : (
             <>
@@ -131,7 +131,7 @@ const EditCandidateProfile = () => {
                 <form onSubmit={handleSubmit} className="mt-8">
             <div className="space-y-5">
                 <div>
-                    <label htmlFor="" className="text-base font-medium text-[#00634D]">
+                    <label htmlFor="" className="text-base font-medium text-[#2A2A2A]">
                     {' '}
                     Full Name{' '}
                     </label>
@@ -149,7 +149,7 @@ const EditCandidateProfile = () => {
                     </div>
               </div>
               <div>
-                    <label htmlFor="" className="text-base font-medium text-[#00634D]">
+                    <label htmlFor="" className="text-base font-medium text-[#2A2A2A]">
                     {' '}
                     Contact Number{' '}
                     </label>
@@ -168,7 +168,7 @@ const EditCandidateProfile = () => {
               </div>
               <div>
                 <div className="flex items-center justify-between">
-                  <label htmlFor="" className="text-base font-medium text-[#00634D]">
+                  <label htmlFor="" className="text-base font-medium text-[#2A2A2A]">
                     {' '}
                     Resume{' '}
                   </label>
@@ -178,7 +178,7 @@ const EditCandidateProfile = () => {
                         type="file" 
                         name="resume" 
                         id="resume" 
-                        className="shadow focus:ring-[#00634D] focus:border-[#00634D] appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+                        className="shadow focus:ring-[#2A2A2A] focus:border-[#2A2A2A] appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
                         onChange={handleResumeChange}
                         />
                     {candidate.resume && (
@@ -193,7 +193,7 @@ const EditCandidateProfile = () => {
               </div>
               <div>
                 <div className="flex items-center justify-between">
-                  <label htmlFor="" className="text-base font-medium text-[#00634D]">
+                  <label htmlFor="" className="text-base font-medium text-[#2A2A2A]">
                     {' '}
                     Medical Report{' '}
                   </label>
@@ -203,7 +203,7 @@ const EditCandidateProfile = () => {
                         type="file" 
                         name="medicalReport" 
                         id="medicalReport" 
-                        className="shadow focus:ring-[#00634D] focus:border-[#00634D] appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+                        className="shadow focus:ring-[#2A2A2A] focus:border-[#2A2A2A] appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
                         onChange={handleMedicalReportChange}
                         />
                     {candidate.medicalReport && (
@@ -220,14 +220,14 @@ const EditCandidateProfile = () => {
                         <div>
                             <button
                             onClick={() => navigate(-1)}
-                                className=" bg-[#00634D] mr-5 rounded-lg hover:bg-[#16473d] focus:bg-[#00634D]
+                                className=" bg-[#2A2A2A] mr-5 rounded-lg hover:bg-[#D4AF37] focus:bg-[#2A2A2A]
                                     text-white font-bold py-2 px-4  focus:outline-none mx-auto
                                     focus:shadow-outline">Back
                             </button>
                         </div>
                         <div>
                         <button type="submit" 
-                        className=" bg-[#00634D] rounded-lg hover:bg-[#16473d] focus:bg-[#00634D]
+                        className=" bg-[#2A2A2A] rounded-lg hover:bg-[#D4AF37] focus:bg-[#2A2A2A]
                           text-white font-bold py-2 px-4  focus:outline-none mx-auto
                           focus:shadow-outline">Update Profile</button>
                     </div>

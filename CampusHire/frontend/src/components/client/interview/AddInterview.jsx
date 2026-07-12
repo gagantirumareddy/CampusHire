@@ -68,7 +68,7 @@ const AddInterview = () => {
                 handleNotification={handleNotification}/>
             )}
                 <div className="flex flex-col w-2/3 mx-auto">
-                    <h2 className="font-CinzelRegular mx-auto text-3xl font-bold text-[#00634D] size-fit mb-5">
+                    <h2 className="font-CinzelRegular mx-auto text-3xl font-bold text-[#2A2A2A] size-fit mb-5">
                     Schedule An Interview
                     </h2>
                     <form onSubmit={handleSubmit}>
@@ -78,7 +78,7 @@ const AddInterview = () => {
                             className="block text-gray-700 font-bold mb-2">Interview Time</label>
                             <input
                                 type="datetime-local"
-                                className="shadow p-5 px-10 rounded-xl font-TypewcondRegular text-xl placeholder-gray-700 focus:ring-[#00634D]  focus:border-[#00634D] border focus:outline-none focus:shadow-outline"
+                                className="shadow p-5 px-10 rounded-xl font-TypewcondRegular text-xl placeholder-gray-700 focus:ring-[#2A2A2A]  focus:border-[#2A2A2A] border focus:outline-none focus:shadow-outline"
                                 id="interviewTime"
                                 name="interviewTime"
                                 value={interviewTime}
@@ -90,14 +90,14 @@ const AddInterview = () => {
                             <div>
                                 <button
                                 onClick={() => navigate(-1)}
-                                    className=" bg-[#00634D] mr-5 rounded-lg hover:bg-[#16473d] focus:bg-[#00634D]
+                                    className=" bg-[#2A2A2A] mr-5 rounded-lg hover:bg-[#D4AF37] focus:bg-[#2A2A2A]
                                         text-white font-bold py-2 px-4  focus:outline-none mx-auto
                                         focus:shadow-outline">Back
                                 </button>
                             </div>
                             <div  className="flex justify-between mt-4">
                                 <button type="submit" 
-                                className=" bg-[#00634D] rounded-lg hover:bg-[#16473d] focus:bg-[#00634D]
+                                className=" bg-[#2A2A2A] rounded-lg hover:bg-[#D4AF37] focus:bg-[#2A2A2A]
                                     text-white font-bold py-2 mb-5 px-4  focus:outline-none mx-auto
                                     focus:shadow-outline">Schedule Interview</button>
                             </div>

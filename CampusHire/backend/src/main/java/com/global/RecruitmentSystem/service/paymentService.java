@@ -109,7 +109,7 @@ public class paymentService {
             Font infoFont11 = FontFactory.getFont(FontFactory.TIMES , 13);
             Font infoFont11Bold = FontFactory.getFont(FontFactory.TIMES_BOLD, 13);
 
-            addTableCell(companyInfoTable, "Global Manpower Planning Private Limited", infoFont9Blue, Rectangle.BOX);
+            addTableCell(companyInfoTable, "CampusHire", infoFont9Blue, Rectangle.BOX);
             addTableCell(companyInfoTable, "       ", infoFont9, Rectangle.BOX);
             addTableCell(companyInfoTable, "PAYMENT DATE : "
                             + payment.getPaymentTimestamp().format(DateTimeFormatter.ofPattern("dd MMMM yyyy HH:mm:ss"))

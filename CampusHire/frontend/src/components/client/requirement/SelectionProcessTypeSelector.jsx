@@ -11,7 +11,7 @@ const CurrencyTypeSelector = ({handleRequirementInputChange, newRequirement}) =>
             <div>
                 <select 
                 name="selectionProcessType" 
-                className="block  px-3 py-2 mb-4 mt-1 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-[#00634D] focus:border-[#00634D] "
+                className="block  px-3 py-2 mb-4 mt-1 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-[#2A2A2A] focus:border-[#2A2A2A] "
                 id="selectionProcessType"
                 value ={newRequirement.selectionProcessType}
                 onChange={handleRequirementInputChange}

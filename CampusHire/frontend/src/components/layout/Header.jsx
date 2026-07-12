@@ -45,13 +45,13 @@ const Header = () => {
           <div className="hidden lg:flex items-center lg:order-2">
             <a
               href="/login"
-              className=" hover:ring-2 hover:ring-[#00634D] focus:bg-[#00634D]  rounded-lg text-sm px-4 lg:px-5 py-2 lg:py-2.5 mr-2 focus:outline-none"
+              className=" hover:ring-2 hover:ring-[#2A2A2A] focus:bg-[#2A2A2A]  rounded-lg text-sm px-4 lg:px-5 py-2 lg:py-2.5 mr-2 focus:outline-none"
             >
               Student Login
             </a>
             <a
               href="/register"
-              className="text-[#EFEDE7] bg-[#00634D] hover:bg-[#1D4ED8] focus:ring-4 focus:ring-orange-300  rounded-lg text-sm px-4 lg:px-5 py-2 lg:py-2.5 mr-2 focus:outline-none"
+              className="text-[#EFEDE7] bg-[#2A2A2A] hover:bg-[#1D4ED8] focus:ring-4 focus:ring-orange-300  rounded-lg text-sm px-4 lg:px-5 py-2 lg:py-2.5 mr-2 focus:outline-none"
             >
               Register
             </a>

@@ -46,14 +46,14 @@ const ResetPassword = () => {
     <section >
     <div className="flex items-center justify-center my-10">
       <div className="xl:mx-auto xl:w-full xl:max-w-sm 2xl:max-w-md">
-        <h2 className="text-center text-2xl font-LakesNeueDemiBold leading-tight text-[#00634D]">
+        <h2 className="text-center text-2xl font-LakesNeueDemiBold leading-tight text-[#2A2A2A]">
           Reset Password
         </h2>
         
         <form onSubmit={handleSubmit} className="mt-8">
           <div className="space-y-5">
             <div>
-              <label htmlFor="" className="text-base font-medium text-[#00634D]">
+              <label htmlFor="" className="text-base font-medium text-[#2A2A2A]">
                 {' '}
                 New Password{' '}
               </label>
@@ -70,7 +70,7 @@ const ResetPassword = () => {
               </div>
             </div>
             <div>
-              <label htmlFor="" className="text-base font-medium text-[#00634D]">
+              <label htmlFor="" className="text-base font-medium text-[#2A2A2A]">
                 {' '}
                 Confirm Password{' '}
               </label>
@@ -102,7 +102,7 @@ const ResetPassword = () => {
               <button
                 type="submit"
                 disabled={disabled}
-                className="inline-flex w-full items-center justify-center rounded-md bg-[#00634D] hover:bg-[#16473d] focus:bg-[#00634D] px-3.5 py-2.5 font-semibold leading-7 text-[#EFEDE7] "
+                className="inline-flex w-full items-center justify-center rounded-md bg-[#2A2A2A] hover:bg-[#D4AF37] focus:bg-[#2A2A2A] px-3.5 py-2.5 font-semibold leading-7 text-[#EFEDE7] "
               >
                 Reset Password 
               </button>
