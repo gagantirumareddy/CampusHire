@@ -20,6 +20,7 @@ import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.security.web.SecurityFilterChain;
 import org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter;
+import org.springframework.http.HttpMethod;
 
 @Configuration
 @EnableWebSecurity
@@ -43,12 +44,19 @@ public class SecurityConfig {
                 .csrf(customizer -> customizer.disable())
                 // This will authenticate every request ( it wont redirect to login form )
                 .authorizeHttpRequests(request ->
-                        request
-                                .requestMatchers("/auth/register/candidate","/auth/login/candidate",
-                                        "/auth/register/client","/auth/login/client", "/auth/login/admin",
-                                        "/auth/forgot-password/{email}", "/auth/reset-password")
-                                .permitAll()
-                                .anyRequest().authenticated())
+                       request
+                .requestMatchers(HttpMethod.OPTIONS, "/**").permitAll()
+                .requestMatchers(
+                        "/auth/register/candidate",
+                        "/auth/login/candidate",
+                        "/auth/register/client",
+                        "/auth/login/client",
+                        "/auth/login/admin",
+                        "/auth/forgot-password/{email}",
+                        "/auth/reset-password"
+                ).permitAll()
+                .anyRequest()
+                .authenticated())
                 // This will redirect to the login form and authenticate
                 //.formLogin(Customizer.withDefaults())
                 // This will enable restapi access
@@ -79,7 +87,7 @@ public class SecurityConfig {
         return authenticationConfiguration.getAuthenticationManager();
     }
     @Bean
-public CorsConfigurationSource corsConfigurationSource() {
+    public CorsConfigurationSource corsConfigurationSource() {
 
     CorsConfiguration configuration = new CorsConfiguration();
 
@@ -105,8 +113,6 @@ public CorsConfigurationSource corsConfigurationSource() {
     source.registerCorsConfiguration("/**", configuration);
 
     return source;
-}
+    }
 
 }
-
-
